@@ -153,11 +153,11 @@ function Faculty() {
                     <form className='inputField' onSubmit={handleSave}>
                         <div>
                             <label htmlFor="name">Full Name</label>
-                            <input type="text" id="name" name="name" placeholder="Enter name" value={formData.name} onChange={handleChange} required />
+                            <input type="text" id="name" name="name" placeholder="Enter faculty name" value={formData.name} onChange={handleChange} required />
                         </div>
                         <div>
                             <label htmlFor="department">Department</label>
-                            <input type="text" id="department" name="department" placeholder="IT" value={formData.department} onChange={handleChange} required />
+                            <input type="text" id="department" name="department" placeholder="Department e.g. IT" value={formData.department} onChange={handleChange} required />
                         </div>
                         <div>
                             <label htmlFor="address">Address</label>

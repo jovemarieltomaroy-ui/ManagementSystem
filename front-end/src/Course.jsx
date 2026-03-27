@@ -137,17 +137,17 @@ function Course() {
                     <form className='inputField' onSubmit={handleSave}>
                         <div>
                             <label htmlFor="courseCode">Course Code</label>
-                            <input type="text" id="courseCode" name="courseCode" placeholder="e.g. CS101" value={formData.courseCode} onChange={handleChange} required />
+                            <input type="text" id="courseCode" name="courseCode" placeholder="Course Codee.g. CS101" value={formData.courseCode} onChange={handleChange} required />
                         </div>
 
                         <div>
                             <label htmlFor="credits">Credits</label>
-                            <input type="number" id="credits" name="credits" placeholder="0" value={formData.credits} onChange={handleChange} required />
+                            <input type="number" id="credits" name="credits" placeholder="Credits e.g. 3" value={formData.credits} onChange={handleChange} required />
                         </div>
 
                         <div>
                             <label htmlFor="courseName">Course Name</label>
-                            <input type="text" id="courseName" name="courseName" placeholder="e.g. Introduction to Programming" value={formData.courseName} onChange={handleChange} required />
+                            <input type="text" id="courseName" name="courseName" placeholder="Description e.g. Introduction to Programming" value={formData.courseName} onChange={handleChange} required />
                         </div>
 
                         <div className="buttonGroup">

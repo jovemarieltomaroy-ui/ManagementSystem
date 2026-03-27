@@ -171,7 +171,7 @@ function Student() {
                                 type="text" 
                                 id="program" 
                                 name="program" 
-                                placeholder="e.g. BS Information Technology" 
+                                placeholder="Program e.g. BS Information Technology" 
                                 value={formData.program} 
                                 onChange={handleChange} 
                                 required 
