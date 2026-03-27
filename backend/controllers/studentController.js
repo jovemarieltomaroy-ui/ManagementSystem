@@ -193,7 +193,6 @@ const deleteStudent = async (req, res) => {
         await session.close();
     }
 };
-
 module.exports = {
     getStudents,
     getStudent,
